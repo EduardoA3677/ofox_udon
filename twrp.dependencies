@@ -1,8 +1,8 @@
 [
   {
-    "remote": "TeamWin",
-    "repository": "android_device_oneplus_sm85xx-common",
-    "target_path": "device/oneplus/sm85xx-common",
+    "remote": "EduardoA3677",
+    "repository": "device_oneplus_sm84xx-common-TWRP",
+    "target_path": "device/oneplus/sm84xx-common",
     "branch": "android-12.1"
   }
 ]
