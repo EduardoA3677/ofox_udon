@@ -5,7 +5,7 @@ export FOX_VERSION="R11.1"
 export OF_MAINTAINER=EduardoA3677
 
 # Build environment stuffs
-export FOX_BUILD_DEVICE="OnePlus11r"
+export FOX_BUILD_DEVICE="udon"
 export ALLOW_MISSING_DEPENDENCIES=true
 export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
 export TARGET_DEVICE_ALT="udon, Udon, OnePlus11r, OnePlus 11r, PHK110, OP5961L1, CPH2487"

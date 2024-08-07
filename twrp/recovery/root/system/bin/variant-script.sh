@@ -8,7 +8,7 @@ echo $variant
 echo $region
 
 case $region in
-    "1")
+    "21")
     #China
         case $variant in
             "22803")
