@@ -28,5 +28,5 @@
 
 # TWRP specific build flags
 TW_FRAMERATE := 120
-TW_MAX_BRIGHTNESS := 420
+TW_MAX_BRIGHTNESS := 550
 
