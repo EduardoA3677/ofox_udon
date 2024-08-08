@@ -26,7 +26,18 @@
 # Inherit from common
 -include $(COMMON_PATH)/BoardConfigCommon.mk
 
+TARGET_OTA_ASSERT_DEVICE := udon
+
 # TWRP specific build flags
 TW_FRAMERATE := 120
 TW_MAX_BRIGHTNESS := 550
 
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
+TW_NO_SCREEN_TIMEOUT := true
+TW_NO_SCREEN_BLANK := true
+
+TARGET_RECOVERY_DEVICE_MODULES += libexpat android.hardware.vibrator-V2-ndk
+RECOVERY_LIBRARY_SOURCE_FILES += \
+     $(TARGET_OUT_SHARED_LIBRARIES)/libexpat.so \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator-V2-ndk.so
