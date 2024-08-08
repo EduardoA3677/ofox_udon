@@ -26,8 +26,6 @@
 # Inherit from common
 -include $(COMMON_PATH)/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := udon
-
 # TWRP specific build flags
 TW_FRAMERATE := 120
 TW_MAX_BRIGHTNESS := 550
