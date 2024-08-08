@@ -49,7 +49,7 @@ export FOX_BUGGED_AOSP_ARB_WORKAROUND="1601559499"
 export OF_QUICK_BACKUP_LIST="/boot;/data;/super;"
 
 # Set default Keymaster Version
-export OF_DEFAULT_KEYMASTER_VERSION=4.1
+
 
 # Magisk
 # Add some extras
@@ -64,7 +64,6 @@ export FOX_USE_NANO_EDITOR=1
 export OF_DONT_KEEP_LOG_HISTORY=1
 export OF_NO_SPLASH_CHANGE=1
 export FOX_INSTALLER_DISABLE_AUTOREBOOT=1
-export FOX_DELETE_AROMAFM=1 
 export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
 export FOX_REPLACE_TOOLBOX_GETPROP=1
