@@ -1,6 +1,7 @@
 export TARGET_ARCH="arm64-v8a"
 
 # Some about us
+export FOX_VERSION="R11.1"
 export OF_MAINTAINER=EduardoA3677
 
 # Build environment stuffs
@@ -20,7 +21,6 @@ export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
 export FOX_AB_DEVICE=1
 export FOX_VIRTUAL_AB_DEVICE=1
 export OF_AB_DEVICE_WITH_RECOVERY_PARTITION=1
-export OF_DISABLE_MIUI_SPECIFIC_FEATURES=1
 
 # Screen specifications
 export OF_STATUS_INDENT_LEFT=48
@@ -29,7 +29,6 @@ export OF_ALLOW_DISABLE_NAVBAR=0
 export OF_CLOCK_POS=0
 export OF_SCREEN_H=2400
 export OF_STATUS_H=120
-export OF_USE_GREEN_LED=0
 
 # Device stuff
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
@@ -55,8 +54,9 @@ export OF_QUICK_BACKUP_LIST="/boot;/data;/super;"
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 
 # Magisk
+export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v27.0.zip
+
 # Add some extras
-export OF_PATCH_AVB20=1
 export FOX_USE_ZIP_BINARY=1
 export FOX_USE_TAR_BINARY=1
 export FOX_ASH_IS_BASH=1
@@ -67,13 +67,3 @@ export FOX_USE_NANO_EDITOR=1
 export OF_DONT_KEEP_LOG_HISTORY=1
 export OF_NO_SPLASH_CHANGE=1
 export FOX_INSTALLER_DISABLE_AUTOREBOOT=1
-export FOX_DELETE_AROMAFM=1
-export FOX_DELETE_INITD_ADDON=1
-export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
-export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
-export FOX_REPLACE_TOOLBOX_GETPROP=1
-export FOX_USE_GREP_BINARY=1
-export FOX_USE_SED_BINARY=1
-export OF_ENABLE_LPTOOLS=1
-export OF_FIX_DECRYPTION_ON_DATA_MEDIA=1
-export OF_KEEP_FORCED_ENCRYPTION=1
